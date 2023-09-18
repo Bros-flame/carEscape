@@ -1,0 +1,33 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Press+Start+2P&family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+
+  
+  h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Serif', serif;
+    color: #ffff08;
+    font-size:48px;
+    stroke-width: 2;
+    -webkit-text-stroke-color: #222;
+  }
+  .levels{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+  }
+  .levels > div{
+    border: 2px solid #222;
+    border-radius: 5px;
+    padding: 0px 10px;
+  }
+  .levels > div.active{
+    color: #ffff08;
+  }

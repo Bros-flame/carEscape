@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VehicleMover Game</title>
+    <link rel="stylesheet" href="play.css">
+    <style>
+        canvas {
+            border: 3px solid black;
+            border-radius: 10px;
+            margin: 10% auto
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #6699ff;
+        }
+        h1{
+            text-align: center;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>Car Escape</h1>
+        <div class="levels">
+            <div class="active">
+                <h3>Level 1</h3>
+            </div>
+            <div>
+                <h3>Level 2</h3>
+            </div>
+            <div>
+                <h3>Level 3</h3>
+            </div>
+            <div>
+                <h3>Level 4</h3>
+            </div>
+        </div>
+    <canvas class="convas-playground" id="gameCanvas" width="600" height="300"></canvas>
+</div>
+
+<script src="play.js"></script>
+</body>
+</html>
