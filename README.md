@@ -21,7 +21,7 @@ Clone the repository to your local machine:
 - Reset game option after collision.
 
 ## Screenshots
-
+![Game Screenshot](https://github.com/your-username/your-repository/raw/main/screenshots/game-screenshot.png)
 (Add screenshots here if desired)
 
 ## Credits
